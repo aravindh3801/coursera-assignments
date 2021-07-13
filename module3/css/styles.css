@@ -1,141 +1,84 @@
-/* Base Styles */
-
-* {
-	box-sizing: border-box;
+*{
+	font-family: 'Balsamiq Sans';
 }
 
-h1 {
-	font-family: Brushstroke, fantasy;
-	color: #000000;
-}
-
-body {
-	background-image: url("background.jpg");
-	background-color: #FEF5CA;
-
-}
-
-p {
-	padding: 10px;
-	margin: 0;
-}
-
-.container {
-	border: none;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 10px;
-}
-
-section {
-	border:	1px solid black;
-	background-color: #00FF99;
-	width: 100%;
-	height: auto;
-	font-family: Helvetica;
+body{
+	font-size:16px;
 	color: black;
-	position: relative;
-	overflow: auto;
+	background-color: white;
 }
 
-#chicken {
-	border: 1px solid black;
+#header-nav{
+	background-color: gray;
+	border:1.5px solid black;
+	padding-right:300px;
+	padding-bottom:20px;
+}
+
+div.container{
+	font-size:160%;
+	
+}
+
+#menubar{
+	font-size:180%;
+	padding-top:30px;
+}
+
+div#boom.container{
+	background-color: gray;
 	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
-	background-color: #FFFF00;
+	margin-top:60px;
 }
 
-#beef {
-	border: 1px solid black;
+div#bam{
+	font-size: 80%;
+	font-weight:350;
+}
+
+
+
+.navbar-dark {
+     background-color: gray!important;
+     }
+
+
+
+nav#haha{
+	background-color: gray!important;
+
+	right:0;
+	margin-right:-300px;
+	object-position: right;
+}
+
+button.navbar-toggler{
+	float:right;
+
+}
+
+ul{
 	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
-	background-color: #FF1439;
+	border:1px solid black;
 }
 
-#sushi {
-	border: 1px solid black;
+li{
 	text-align: center;
-	width: 30%;
-	margin-left: 70%;
-	font-family: Georgia,sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	background-color: #6495ED;
-	color: white;
-	padding: 5px;
+	color: black;
+	border:1px solid black;
+	text-decoration-color: black;
+	background-color:rgb(218, 215, 229);
 }
 
-#chicken-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
+a{
+	color:black;
 }
 
-#beef-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
+a:hover{
+	background-color: gray;
+	color:white;
 }
 
-#sushi-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.navbar-brand {
-  font-size: 2em;
-  border: 0 0 10px 10px;
-  color: #FFFFFF;
-}
-
-#header-nav {
-  border: 0;
-  background-color: #FC5F06;
-  color: #FFFFFF;
-}
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
-
-.nav-header {
-  background-color: #FFFFFF;
-}
-
-.nav-brand {
-  color: #FFFFFF;
-  font-size: 1.5em;
-}
-
-#nav-list {
-  color: white;
-}
-
-hr {
-  border-color: white;
-}
-
-.item {
-  color: white;
-  font-size: 1.2em;
+.nav-item-active{
+	background-color: black;
 }
